@@ -80,7 +80,7 @@ local Player = windowz:CreatePage("Player")
 
 local Section1 = Player:CreateSection("Player Mod")
 
-Section1:CreateSlider("WalkSpeed", {Min = 16, Max = 500, DefaultValue = 16}, function(Value)
+Section1:CreateSlider("WalkSpeed NO WORKING!!", {Min = 16, Max = 500, DefaultValue = 16}, function(Value)
     local character = game.Players.LocalPlayer.Character
     if character and character:FindFirstChild("Humanoid") then
         character.Humanoid.WalkSpeed = Value
